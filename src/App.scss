@@ -1,4 +1,4 @@
-@import './assets/styles/variables.scss';
+@use './assets/styles/variables.scss';
 
 .App {
   display: flex;
@@ -6,5 +6,5 @@
   align-items: center;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
-  color: $color-white;
+  color: variables.$color-white;
 }
