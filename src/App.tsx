@@ -1,5 +1,5 @@
 import './App.scss';
-import { WorkInProgress } from './app/components/WorkInProgress';
+import { WorkInProgress } from './components/WorkInProgress';
 
 function App() {
   return (
